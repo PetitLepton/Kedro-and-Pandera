@@ -1,0 +1,33 @@
+[tool.kedro]
+package_name = "pandera_test"
+project_name = "Pandera Test"
+project_version = "0.18.0"
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 88
+known_third_party = "kedro"
+known_application="src"
+default_section = "THIRDPARTY"
+sections = "FIRSTPARTY,FUTURE,STDLIB,THIRDPARTY,APPLICATION,LOCALFOLDER"
+import_heading_future = "Future"
+import_heading_stdlib = "Built-in"
+import_heading_thirdparty = "Third-party"
+import_heading_application = "Application"
+import_heading_localfolder = "Local"
+
+[tool.pytest.ini_options]
+addopts = """
+--cov-report term-missing \
+--cov src/pandera_test -ra"""
+
+[tool.coverage.report]
+fail_under = 0
+show_missing = true
+exclude_lines = ["pragma: no cover", "raise NotImplementedError"]
+
+[tool.mypy]
+plugins = "pandera.mypy"
