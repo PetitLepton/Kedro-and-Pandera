@@ -1,4 +1,4 @@
-# This is a boilerplate parameters config generated for pipeline 'file_ingestion'
+# This is a boilerplate parameters config generated for pipeline 'data_ingestion'
 # using Kedro 0.18.0.
 #
 # Documentation for this file format can be found in "Parameters"

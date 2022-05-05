@@ -1,4 +1,4 @@
-"""This is a boilerplate pipeline 'basic' generated using Kedro 0.18.0."""
+"""This is a boilerplate pipeline 'file_ingestion' generated using Kedro 0.18.0."""
 
 # Built-in
 from typing import Any

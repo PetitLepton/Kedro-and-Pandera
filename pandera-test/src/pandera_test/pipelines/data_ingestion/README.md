@@ -1,4 +1,4 @@
-# Pipeline basic
+# Pipeline data_ingestion
 
 > *Note:* This is a `README.md` boilerplate generated using `Kedro 0.18.0`.
 
