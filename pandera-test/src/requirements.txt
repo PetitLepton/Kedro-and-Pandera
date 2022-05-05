@@ -1,2 +1,4 @@
 kedro[pandas]==0.18.0
-pandera[mypy]
+pandera[mypy,io]
+# For pandera.io
+black==22.3.0
