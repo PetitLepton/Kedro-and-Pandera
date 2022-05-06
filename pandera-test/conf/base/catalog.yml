@@ -6,37 +6,3 @@
 file_names_and_labels:
   type: pandas.CSVDataSet
   filepath: data/01_raw/file_names_and_labels.csv
-
-file_names_and_labels_:
-  type: pandera_test.extras.datasets.csv_dataset_with_schema.CSVDataSetWithSchema
-  filepath: data/01_raw/file_names_and_labels.csv
-  yaml_schema:
-    schema_type: dataframe
-    version: 0.11.0
-    columns:
-      file_name:
-        dtype: str
-        nullable: false
-        checks:
-          str_startswith: quartz_
-        unique: false
-        coerce: false
-        required: true
-        regex: false
-      label:
-        dtype: str
-        nullable: false
-        checks:
-          isin:
-          - OK
-          - NOK
-        unique: false
-        coerce: false
-        required: true
-        regex: false
-    checks:
-      check_ids: file_name
-    index: null
-    coerce: false
-    strict: false
-    unique: null

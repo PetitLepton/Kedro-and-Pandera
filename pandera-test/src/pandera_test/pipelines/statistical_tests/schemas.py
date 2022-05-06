@@ -1,5 +1,4 @@
 # Third-party
-import math
 import pandera
 
 
@@ -12,4 +11,4 @@ class Normalized(pandera.SchemaModel):
 
     @pandera.check("my_great_feature")
     def check_unit_std(cls, series: pandera.typing.Series[float]) -> bool:
-        return abs(series.std() -1.) < 1.0e-15
+        return abs(series.std() - 1.0) < 1.0e-15

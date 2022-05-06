@@ -1,13 +1,8 @@
 # Third-party
 import pandera
-import pandera.extensions as extensions
+
 
 FILE_NAME_ROOT = "quartz_"
-
-
-@extensions.register_check_method(statistics=["ids_column"])
-def check_ids(df, *args, ids_column: str):
-    return df[ids_column].str.replace(FILE_NAME_ROOT, "").str.isdecimal()
 
 
 class FileNamesAndLabels(pandera.SchemaModel):
