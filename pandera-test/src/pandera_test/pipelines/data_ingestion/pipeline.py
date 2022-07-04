@@ -1,9 +1,10 @@
-"""
-This is a boilerplate pipeline 'data_ingestion'
-generated using Kedro 0.18.0
-"""
+"""This is a boilerplate pipeline 'data_ingestion' generated using Kedro
+0.18.0."""
 
+# Third-party
 from kedro.pipeline import Pipeline, node
+
+# Local
 from .nodes import create_some_input, do_nothing_with_my_feature
 
 

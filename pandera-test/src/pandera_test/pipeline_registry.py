@@ -1,7 +1,7 @@
 """Project pipelines."""
 from pandera_test.pipelines import (
-    create_file_ingestion_pipeline,
     create_data_ingestion_pipeline,
+    create_file_ingestion_pipeline,
     create_statistical_tests_pipeline,
 )
 
