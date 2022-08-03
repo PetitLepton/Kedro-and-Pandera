@@ -1,7 +1,6 @@
 # Third-party
 import pandera
 
-
 FILE_NAME_ROOT = "quartz_"
 
 
