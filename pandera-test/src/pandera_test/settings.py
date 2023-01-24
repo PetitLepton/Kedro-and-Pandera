@@ -2,8 +2,7 @@
 
 There is no need to edit this file unless you want to change values from
 the Kedro defaults. For further information, including these default
-values,
-seeettings.html.
+values, seeettings.html.
 """
 
 # Instantiated project hooks.

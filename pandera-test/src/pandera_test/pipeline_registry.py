@@ -18,7 +18,6 @@ def register_pipelines() -> Dict[str, Pipeline]:
     Returns:
         A mapping from a pipeline name to a ``Pipeline`` object.
     """
-
     file_ingestion_pipeline = create_file_ingestion_pipeline()
     data_ingestion_pipeline = create_data_ingestion_pipeline()
     statistical_tests_pipeline = create_statistical_tests_pipeline()
