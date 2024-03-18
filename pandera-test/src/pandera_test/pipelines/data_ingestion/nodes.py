@@ -1,5 +1,6 @@
 """This is a boilerplate pipeline 'data_ingestion' generated using Kedro
 0.18.0."""
+
 # Third-party
 import pandas
 import pandera

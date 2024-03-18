@@ -1,5 +1,6 @@
 """This is a boilerplate pipeline 'statistical_tests' generated using Kedro
 0.18.0."""
+
 # Third-party
 import numpy
 import pandas
