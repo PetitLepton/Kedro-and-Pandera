@@ -1,5 +1,6 @@
 """Pandera Test file for ensuring the package is executable as `pandera-test`
 and `python -m pandera_test`"""
+
 # Built-in
 import importlib
 from pathlib import Path
